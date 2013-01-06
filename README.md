@@ -1,4 +1,1 @@
-validate
-========
-
-validate
+doc.go

@@ -21,11 +21,6 @@ func (e *ValidationError) String() string {
 
 type Validation struct {
 	Errors []*ValidationError
-	keep   bool
-}
-
-func (v *Validation) Keep() {
-	v.keep = true
 }
 
 func (v *Validation) Clear() {
